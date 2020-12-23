@@ -35,7 +35,7 @@ export default {
 <!-- "scoped" does not fully protect you from side-effects/conflicts when you have commonly-used names -->
 <!-- Add "module" attribute to truly limit CSS to this component only -->
 <!-- Need to add v-bind to class wishlist and $style. -->
-<!-- Check out the inspect on the rendered page and you will see this component's name appended to the class name -->
+<!-- Right-click and inspect the rendered page and you will see this component's name appended to the class name -->
 
 <style lang="scss" module>
     ul.wishlist {
